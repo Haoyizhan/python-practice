@@ -1,0 +1,29 @@
+git config --global user.name +名字or信箱
+
+git add name
+git status
+git commit -m 加訊息
+git add .(全部進到暫存區)
+git log 檢視版本歷史 q 退出檢視
+git log --oneline 快速檢視
+git diff 編號 --name 比較前後版本
+//改回版本(單一)
+git checkout 編號 --name
+git status
+git commit -m 訊息
+
+//改回版本(全部) 這個不可逆
+git reset --hard 編號
+
+//如果專案內不要放到git內 新增一個gitignore資料夾 資料夾內放*.副檔名
+然後
+git add.
+git commit -m 訊息
+
+git clone 網址
+cd 資料夾名稱 
+git push 提交變更到github
+git pull 將變更存到本地端
+git checkout -b 新分支名
+git push origin 新分支名
+ 
